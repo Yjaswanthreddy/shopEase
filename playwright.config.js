@@ -109,7 +109,7 @@ export default defineConfig({
 
   use: {
     baseURL: 'https://d09ac229-a18f-4539-9f89-6c29339a7c34-00-10kcj7ghp6lvq.worf.replit.dev',
-    headless: false,
+    headless: true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     trace: 'on-first-retry',
