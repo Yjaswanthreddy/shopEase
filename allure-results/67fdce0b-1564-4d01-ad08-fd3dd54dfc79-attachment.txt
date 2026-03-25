@@ -1,0 +1,3 @@
+Popup → Registration Failed
+
+NetworkError when attempting to fetch resource.

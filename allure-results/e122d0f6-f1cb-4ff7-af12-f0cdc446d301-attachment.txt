@@ -1,0 +1,3 @@
+Popup → Registration Failed
+
+Failed to fetch

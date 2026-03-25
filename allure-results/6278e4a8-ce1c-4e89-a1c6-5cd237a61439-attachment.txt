@@ -1,0 +1,3 @@
+POPUP: account created!
+
+welcome to shopease. you are now logged in.
