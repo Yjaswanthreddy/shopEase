@@ -1,0 +1,109 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - link "ShopEase Logo ShopEase" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "ShopEase Logo" [ref=e9]
+          - generic [ref=e10]: ShopEase
+        - generic [ref=e11]:
+          - link "Catalog" [ref=e12] [cursor=pointer]:
+            - /url: /products
+          - link "Electronics" [ref=e13] [cursor=pointer]:
+            - /url: /products?category=electronics
+          - link "Fashion" [ref=e14] [cursor=pointer]:
+            - /url: /products?category=fashion
+        - generic [ref=e16]:
+          - generic:
+            - img
+          - textbox "Search products..." [ref=e17]
+        - generic [ref=e18]:
+          - link [ref=e19] [cursor=pointer]:
+            - /url: /wishlist
+            - img [ref=e20]
+          - link [ref=e22] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e23]
+          - generic [ref=e27]:
+            - link "Log in" [ref=e28] [cursor=pointer]:
+              - /url: /login
+            - link "Sign up" [ref=e29] [cursor=pointer]:
+              - /url: /register
+    - main [ref=e30]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - heading "Create an account" [level=2] [ref=e34]
+          - paragraph [ref=e35]:
+            - text: Already have an account?
+            - link "Sign in" [ref=e36] [cursor=pointer]:
+              - /url: /login
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: Full Name
+              - textbox "John Doe" [ref=e41]: Raghu
+            - generic [ref=e42]:
+              - generic [ref=e43]: Email address
+              - textbox "you@example.com" [ref=e44]: test@gmail.com
+            - generic [ref=e45]:
+              - generic [ref=e46]: Password
+              - textbox "••••••••" [active] [ref=e47]: "123"
+              - paragraph [ref=e48]: Password must be at least 6 characters
+          - button "Sign up" [ref=e49]
+    - contentinfo [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - link "ShopEase Logo ShopEase" [ref=e54] [cursor=pointer]:
+              - /url: /
+              - img "ShopEase Logo" [ref=e55]
+              - generic [ref=e56]: ShopEase
+            - paragraph [ref=e57]: Your premium destination for modern e-commerce. High quality products delivered to your door.
+          - generic [ref=e58]:
+            - heading "Shop" [level=3] [ref=e59]
+            - list [ref=e60]:
+              - listitem [ref=e61]:
+                - link "All Products" [ref=e62] [cursor=pointer]:
+                  - /url: /products
+              - listitem [ref=e63]:
+                - link "Electronics" [ref=e64] [cursor=pointer]:
+                  - /url: /products?category=electronics
+              - listitem [ref=e65]:
+                - link "Fashion" [ref=e66] [cursor=pointer]:
+                  - /url: /products?category=fashion
+              - listitem [ref=e67]:
+                - link "New Arrivals" [ref=e68] [cursor=pointer]:
+                  - /url: /products?sort=newest
+          - generic [ref=e69]:
+            - heading "Support" [level=3] [ref=e70]
+            - list [ref=e71]:
+              - listitem [ref=e72]:
+                - link "FAQ" [ref=e73] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e74]:
+                - link "Shipping & Returns" [ref=e75] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e76]:
+                - link "Contact Us" [ref=e77] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e78]:
+            - heading "Legal" [level=3] [ref=e79]
+            - list [ref=e80]:
+              - listitem [ref=e81]:
+                - link "Privacy Policy" [ref=e82] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e83]:
+                - link "Terms of Service" [ref=e84] [cursor=pointer]:
+                  - /url: "#"
+        - generic [ref=e85]:
+          - paragraph [ref=e86]: © 2026 ShopEase Platform. All rights reserved.
+          - generic [ref=e87]:
+            - generic [ref=e88] [cursor=pointer]: X
+            - generic [ref=e89] [cursor=pointer]: In
+            - generic [ref=e90] [cursor=pointer]: Fb
+  - region "Notifications (F8)":
+    - list
+```

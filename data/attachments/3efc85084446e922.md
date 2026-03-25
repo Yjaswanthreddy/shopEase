@@ -1,0 +1,94 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - link "ShopEase Logo ShopEase" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "ShopEase Logo" [ref=e9]
+          - generic [ref=e10]: ShopEase
+        - generic [ref=e11]:
+          - link "Catalog" [ref=e12] [cursor=pointer]:
+            - /url: /products
+          - link "Electronics" [ref=e13] [cursor=pointer]:
+            - /url: /products?category=electronics
+          - link "Fashion" [ref=e14] [cursor=pointer]:
+            - /url: /products?category=fashion
+        - generic [ref=e16]:
+          - generic:
+            - img
+          - textbox "Search products..." [ref=e17]
+        - generic [ref=e18]:
+          - link [ref=e19] [cursor=pointer]:
+            - /url: /wishlist
+            - img [ref=e20]
+          - link [ref=e22] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e23]
+          - generic [ref=e27]:
+            - link "Log in" [ref=e28] [cursor=pointer]:
+              - /url: /login
+            - link "Sign up" [ref=e29] [cursor=pointer]:
+              - /url: /register
+    - main [ref=e30]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - img [ref=e35]
+          - heading "404 Page Not Found" [level=1] [ref=e39]
+        - paragraph [ref=e40]: Did you forget to add the page to the router?
+    - contentinfo [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - link "ShopEase Logo ShopEase" [ref=e45] [cursor=pointer]:
+              - /url: /
+              - img "ShopEase Logo" [ref=e46]
+              - generic [ref=e47]: ShopEase
+            - paragraph [ref=e48]: Your premium destination for modern e-commerce. High quality products delivered to your door.
+          - generic [ref=e49]:
+            - heading "Shop" [level=3] [ref=e50]
+            - list [ref=e51]:
+              - listitem [ref=e52]:
+                - link "All Products" [ref=e53] [cursor=pointer]:
+                  - /url: /products
+              - listitem [ref=e54]:
+                - link "Electronics" [ref=e55] [cursor=pointer]:
+                  - /url: /products?category=electronics
+              - listitem [ref=e56]:
+                - link "Fashion" [ref=e57] [cursor=pointer]:
+                  - /url: /products?category=fashion
+              - listitem [ref=e58]:
+                - link "New Arrivals" [ref=e59] [cursor=pointer]:
+                  - /url: /products?sort=newest
+          - generic [ref=e60]:
+            - heading "Support" [level=3] [ref=e61]
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - link "FAQ" [ref=e64] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e65]:
+                - link "Shipping & Returns" [ref=e66] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e67]:
+                - link "Contact Us" [ref=e68] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e69]:
+            - heading "Legal" [level=3] [ref=e70]
+            - list [ref=e71]:
+              - listitem [ref=e72]:
+                - link "Privacy Policy" [ref=e73] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e74]:
+                - link "Terms of Service" [ref=e75] [cursor=pointer]:
+                  - /url: "#"
+        - generic [ref=e76]:
+          - paragraph [ref=e77]: © 2026 ShopEase Platform. All rights reserved.
+          - generic [ref=e78]:
+            - generic [ref=e79] [cursor=pointer]: X
+            - generic [ref=e80] [cursor=pointer]: In
+            - generic [ref=e81] [cursor=pointer]: Fb
+  - region "Notifications (F8)":
+    - list
+```

@@ -1,0 +1,3 @@
+POPUP: registration failed
+
+http 409 : email already registered
