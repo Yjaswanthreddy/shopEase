@@ -1,3 +1,0 @@
-Popup → Registration Failed
-
-HTTP 409 : Email already registered

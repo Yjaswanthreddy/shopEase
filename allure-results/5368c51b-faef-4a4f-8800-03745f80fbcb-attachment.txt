@@ -1,3 +1,0 @@
-POPUP: registration failed
-
-failed to fetch

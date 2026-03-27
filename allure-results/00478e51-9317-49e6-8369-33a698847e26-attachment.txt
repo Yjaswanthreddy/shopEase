@@ -1,3 +1,0 @@
-POPUP: registration failed
-
-http 429 : too many requests
