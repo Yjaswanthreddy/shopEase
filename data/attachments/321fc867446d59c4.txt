@@ -1,3 +1,0 @@
-POPUP: registration failed
-
-networkerror when attempting to fetch resource.
